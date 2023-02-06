@@ -1,5 +1,6 @@
 # Hackintosh-DellXPS9360
 --LAPTOP SPECS--
+- Dell 13 XPS 9360
 - CPU: Intel Core i7-8550u 2.71 GHz
 - GPU: Intel UHD Graphics 620 2048MB
 - RAM: 8GB 1867 MHz LPDDR3
@@ -13,7 +14,7 @@
   3) Install Appropriate Kexts
     *NOTE: wifi kext is specifically for me, make sure you have correct kext for YOUR wifi card*
     WIFI - https://github.com/OpenIntelWireless/itlwm
-	  BLUETOOTH - https://github.com/OpenIntelWireless/IntelBluetoothFirmware
+    BLUETOOTH - https://github.com/OpenIntelWireless/IntelBluetoothFirmware
   4) Using ProperTree, add downloaded Kexts into KERNAL
     - Change BundlePath to kextfilename.kext
     - Change ExecutablePath, can be found within the Kext file (may need a mac machine for this)
