@@ -1,10 +1,10 @@
 # Hackintosh-DellXPS9360
 --LAPTOP SPECS--
-CPU: Intel Core i7-8550u 2.71 GHz
-GPU: Intel UHD Graphics 620 2048MB
-RAM: 8GB 1867 MHz LPDDR3
-WIFI CARD: Intel Wireless-AC 8265 (Killer Wireless-AC 1535 not supported)
-OS: macOS Big Sur 11.7.3
+- CPU: Intel Core i7-8550u 2.71 GHz
+- GPU: Intel UHD Graphics 620 2048MB
+- RAM: 8GB 1867 MHz LPDDR3
+- WIFI CARD: Intel Wireless-AC 8265 (Killer Wireless-AC 1535 not supported)
+- OS: macOS Big Sur 11.7.3
 
 --USB Bootloader Preparation--
   1) Load Big Sur onto USB
