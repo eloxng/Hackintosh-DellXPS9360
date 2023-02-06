@@ -12,11 +12,14 @@
     - If on windows, download TransMac to format drive for Mac and add OS image to it
   2) Create an EFI partition on the USB Drive and copy the EFI file into it
   3) Install Appropriate Kexts
-    *NOTE: wifi kext is specifically for me, make sure you have correct kext for YOUR wifi card*
-    WIFI - https://github.com/OpenIntelWireless/itlwm
-    BLUETOOTH - https://github.com/OpenIntelWireless/IntelBluetoothFirmware
-  4) Using ProperTree, add downloaded Kexts into KERNAL
+      - *wifi kext is specifically for me, make sure you have correct kext for YOUR wifi card*
+      - WIFI: https://github.com/OpenIntelWireless/itlwm
+      - BLUETOOTH: https://github.com/OpenIntelWireless/IntelBluetoothFirmware
+
+4) Using ProperTree, add downloaded Kexts into KERNAL
     - Change BundlePath to kextfilename.kext
     - Change ExecutablePath, can be found within the Kext file (may need a mac machine for this)
     - Make sure PlistPath points to Contents/info.plist
   5) Drive is now ready, eject
+
+
